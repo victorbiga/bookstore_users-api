@@ -9,7 +9,7 @@ func mapUrls() {
 	router.GET("/ping", ping.Ping)
 
 	router.POST("/users", users.CreateUser)
-	router.GET("/users/:userid", users.GetUser)
+	router.GET("/users/:user_id", users.GetUser)
 	// panic: 'search' in new path '/users/search' conflicts with existing wildcard ':userid' in existing prefix '/users/:userid'
 	// router.GET("/users/search", controllers.SearchUser)
 }
