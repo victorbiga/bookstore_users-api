@@ -1,13 +1,18 @@
 package services
 
-func CreateUser()  {
-	
+import "github.com/gin-gonic/gin"
+
+// CreateUser new user
+func CreateUser(c *gin.Context) {
+
 }
 
-func GetUser()  {
-	
+// GetUser get user
+func GetUser(c *gin.Context) {
+
 }
 
-func FindUser()  {
-	
+// SearchUser search user
+func SearchUser(c *gin.Context) {
+
 }
